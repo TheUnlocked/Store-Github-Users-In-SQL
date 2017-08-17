@@ -1,0 +1,7 @@
+
+CELERY_IMPORTS = ('tasks')
+CELERY_IGNORE_RESULT = False
+BROKER_HOST = "localhost"
+BROKER_PORT = 5672
+BROKER_URL='amqp://'
+CELERY_RESULT_BACKEND = "amqp"
